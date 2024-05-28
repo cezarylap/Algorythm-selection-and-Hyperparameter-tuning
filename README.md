@@ -23,10 +23,10 @@ The repository contains scripts for determining the optimal machine learning alg
 12. Displaying the generated tables.
 
 ### Suggestions for editing the scripts:
-* Algorithm modification: In the sections responsible for loading(1.) and listing algorithms(4.), algorithms can be changed.
-* Data modification: You can change the data used for analysis by using different datasets(2.).
-* Adding more hyperparameters: If you want to experiment with more hyperparameters, you can add them to the hyperparameter section(8.) and test their impact on results.
-* Other metrics: In the section where metrics are calculated(6.), you can add or modify existing metrics to tailor them to your needs.
+* Algorithm modification: In the sections responsible for loading (1.) and listing algorithms (4.), algorithms can be changed.
+* Data modification: You can change the data used for analysis by using different datasets (2.).
+* Adding more hyperparameters: If you want to experiment with more hyperparameters, you can add them to the hyperparameter section (8.) and test their impact on results.
+* Other metrics: In the section where metrics are calculated (6.), you can add or modify existing metrics to tailor them to your needs.
 * You can change the base metric used in GridSearchCV in the (9.).
 
 **Requirements:**
