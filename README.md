@@ -20,7 +20,7 @@ The repository contains scripts for determining the optimal machine learning alg
 9. Generating best hyperparameter sets based on specified metric using grid search.
 10. Generating additional metrics using the best hyperparameter sets.
 11. Formatting tables (Github does not display tables in formatted form).
-12.1-2. Displaying the generated tables.
+12. Displaying the generated tables.
 
 ### Suggestions for editing the scripts:
 * Algorithm modification: In the sections responsible for loading(1.) and listing algorithms(4.), algorithms can be changed.
