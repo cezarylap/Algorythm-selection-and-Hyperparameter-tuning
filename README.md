@@ -37,6 +37,9 @@ The repository contains scripts for determining the optimal machine learning alg
 * Scikit-learn 1.5.0
 * Xgboost 2.0.3
 * Catboost 1.2.5
+* Cudf
+  * NVIDIA drivers version at least 450.80.
+  * CUDA Toolkit version at least 11.0.
 
 **Install all at once:**
 ```
