@@ -35,10 +35,12 @@ The repository contains scripts for determining the optimal machine learning alg
   * Scikit-learn 1.5.0
   * Xgboost 2.0.3
   * Catboost 1.2.5
+  * Skorch
+  * Torch
 
 **Install all at once:**
 ```
-pip install numpy pandas matplotlib scikit-learn xgboost catboost
+pip install numpy pandas matplotlib scikit-learn xgboost catboost skorch torch
 ```
 
 Author:
