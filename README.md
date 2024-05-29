@@ -30,19 +30,19 @@ The repository contains scripts for determining the optimal machine learning alg
 * You can change the base metric used in GridSearchCV in the (9.).
 
 ### **Requirements:**
-#### CPU Scripts:
-* Python 3.10.6
-* Numpy 1.24.3
-* Pandas 2.2.2
-* Matplotlib 3.9.0
-* Scikit-learn 1.5.0
-* Xgboost 2.0.3
-* Catboost 1.2.5
-#### GPU Scripts:
-* CPU Scripts Requirements
-* Cudf
-  * NVIDIA drivers version at least 450.80.
-  * CUDA Toolkit version 11.8.  https://developer.nvidia.com/cuda-11-8-0-download-archive
+ #### CPU Scripts:
+  * Python 3.10.6
+  * Numpy 1.24.3
+  * Pandas 2.2.2
+  * Matplotlib 3.9.0
+  * Scikit-learn 1.5.0
+  * Xgboost 2.0.3
+  * Catboost 1.2.5
+ #### GPU Scripts:
+  * CPU Scripts Requirements
+  * Cudf
+    * NVIDIA drivers version at least 450.80.
+    * CUDA Toolkit version 11.8.  https://developer.nvidia.com/cuda-11-8-0-download-archive
 
 **Install all at once:**
 ```
