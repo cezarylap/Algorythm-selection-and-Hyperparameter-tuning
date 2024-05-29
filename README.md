@@ -39,7 +39,7 @@ The repository contains scripts for determining the optimal machine learning alg
 * Catboost 1.2.5
 * Cudf
   * NVIDIA drivers version at least 450.80.
-  * CUDA Toolkit version at least 11.0.  https://developer.nvidia.com/cuda-downloads
+  * CUDA Toolkit version 11.8.  https://developer.nvidia.com/cuda-11-8-0-download-archive
 
 **Install all at once:**
 ```
