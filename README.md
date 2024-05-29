@@ -1,10 +1,10 @@
 # Repository Description:
 
-The repository contains scripts for determining the optimal machine learning algorithm and its hyperparameters for a given dataset, tailored to either classification or regression tasks, and capable of utilizing both CPU and GPU resources.
+The repository contains scripts for determining the optimal machine learning algorithm and its hyperparameters for a given dataset, tailored to either classification or regression tasks.
 
-### Primary Scripts:
-#### Classification: For classification problems.
-#### Regression: For regression problems.
+## Primary Scripts:
+### Classification: For classification problems.
+### Regression: For regression problems.
 
 ### Scripts Structure:
 1. Importing necessary libraries.
