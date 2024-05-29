@@ -32,7 +32,7 @@ This repository contains two scripts for comparing and optimizing machine learni
 * Other metrics: In the section where metrics are calculated (6.), you can add or modify existing metrics to tailor them to your needs.
 * You can change the base metric used in GridSearchCV in the (9.).
 
-###Installation
+### Installation
 Clone the repository:
 ```
 git clone https://github.com/cezarylap/ML-Algorithm-Optimization-Comparison
