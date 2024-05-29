@@ -1,12 +1,10 @@
 # Repository Description:
 
-The repository contains scripts for determining the optimal machine learning algorithm and its hyperparameters for a given dataset, tailored to either classification or regression tasks, and capable of utilizing both CPU and GPU resources.
+The repository contains scripts for determining the optimal machine learning algorithm and its hyperparameters for a given dataset, tailored to either classification or regression tasks.
 
-### Primary Scripts:
-#### Classification_CPU: Executes classification tasks using CPU.
-#### Classification_GPU: Executes classification tasks using GPU.
-#### Regression_CPU: Executes regression tasks using CPU.
-#### Regression_GPU: Executes regression tasks using GPU.
+## Primary Scripts:
+### Classification: For classification problems.
+### Regression: For regression problems.
 
 ### Scripts Structure:
 1. Importing necessary libraries.
@@ -30,7 +28,6 @@ The repository contains scripts for determining the optimal machine learning alg
 * You can change the base metric used in GridSearchCV in the (9.).
 
 ### **Requirements:**
- #### CPU Scripts:
   * Python 3.10.6
   * Numpy 1.24.3
   * Pandas 2.2.2
@@ -38,11 +35,6 @@ The repository contains scripts for determining the optimal machine learning alg
   * Scikit-learn 1.5.0
   * Xgboost 2.0.3
   * Catboost 1.2.5
- #### GPU Scripts:
-  * CPU Scripts Requirements
-  * Cudf
-    * NVIDIA drivers version at least 450.80.
-    * CUDA Toolkit version 11.8.  https://developer.nvidia.com/cuda-11-8-0-download-archive
 
 **Install all at once:**
 ```
