@@ -1,10 +1,15 @@
 # Repository Description:
 
-The repository contains scripts for determining the optimal machine learning algorithm and its hyperparameters for a given dataset, tailored to either classification or regression tasks.
+This repository contains two scripts for comparing and optimizing machine learning algorithms on different datasets. The first script focuses on classification algorithms, while the second script addresses regression algorithms. Both scripts evaluate models with default hyperparameters, perform hyperparameter tuning to maximize a specific metric, and then compare the results.
 
-## Primary Scripts:
-### Classification: For classification problems.
-### Regression: For regression problems.
+## Repository Structure
+### Classification: Compares classification algorithms on a given dataset.
+### Regression: Compares classification algorithms on a given dataset.
+
+## Features
+* Default Hyperparameter Evaluation: Assess the performance of algorithms using default hyperparameters.
+* Hyperparameter Tuning: Optimize hyperparameters to maximize a specific metric.
+* Performance Comparison: Compare the results before and after hyperparameter tuning.
 
 ### Scripts Structure:
 1. Importing necessary libraries.
@@ -27,19 +32,17 @@ The repository contains scripts for determining the optimal machine learning alg
 * Other metrics: In the section where metrics are calculated (6.), you can add or modify existing metrics to tailor them to your needs.
 * You can change the base metric used in GridSearchCV in the (9.).
 
-### **Requirements:**
-  * Python 3.10.6
-  * Numpy 1.24.3
-  * Pandas 2.2.2
-  * Matplotlib 3.9.0
-  * Scikit-learn 1.5.0
-  * Xgboost 2.0.3
-  * Catboost 1.2.5
-
-**Install all at once:**
+###Installation
+Clone the repository:
 ```
-pip install numpy pandas matplotlib scikit-learn xgboost catboost
+git clone https://github.com/cezarylap/ML-Algorithm-Optimization-Comparison
 ```
+Install the required dependencies:
+```
+pip install -r requirements.txt
+```
+###License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 Author:
 The project was created by [Cezary Łapiński / cezarylap] (https://github.com/cezarylap).
