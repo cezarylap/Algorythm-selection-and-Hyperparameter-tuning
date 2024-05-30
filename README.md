@@ -30,7 +30,7 @@ This repository contains two scripts for comparing and optimizing machine learni
 * Data modification: You can change the data used for analysis by using different datasets (2.).
 * Adding more hyperparameters: If you want to experiment with more hyperparameters, you can add them to the hyperparameter section (8.) and test their impact on results.
 * Other metrics: In the section where metrics are calculated (6.), you can add or modify existing metrics to tailor them to your needs.
-* You can change the base metric used in GridSearchCV in the (9.).
+* You can change the base metric used in hyperparameter GridSearchCV in the (9.).
 
 ### Installation
 Clone the repository:
