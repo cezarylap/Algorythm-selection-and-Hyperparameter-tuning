@@ -25,6 +25,7 @@ This repository contains two scripts for comparing and optimizing machine learni
 11. Formatting tables (Github does not display tables in formatted form).
 12. Displaying the generated tables.
 13. Displaying best result.
+14. Charts before and after.
 
 ### Suggestions for editing the scripts:
 * **Algorithm modification**: In the sections responsible for loading (1.) and listing algorithms (4.), algorithms can be changed. When adding a new algorithm, remember to add a set of hyperparameters (8.) to check their effect on the result.
