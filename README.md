@@ -34,11 +34,19 @@ This repository contains two scripts for comparing and optimizing machine learni
 * Other **metrics**: In the section where metrics are calculated (6.), you can add or modify existing metrics to tailor them to your needs. You can also change the base metric used in hyperparameter GridSearchCV in the (9.).
 
 ### Installation
-Clone the repository:
+Terminal:
 ```
 git clone https://github.com/cezarylap/ML-Hyperparameter-Tuning.git
 ```
-Install the required dependencies:
+```
+cd ML-Hyperparameter-Tuning
+```
+```
+python -m venv wirtual
+```
+```
+wirtual\Scripts\activate
+```
 ```
 pip install -r requirements.txt
 ```
