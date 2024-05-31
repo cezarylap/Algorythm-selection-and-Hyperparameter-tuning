@@ -36,7 +36,7 @@ This repository contains two scripts for comparing and optimizing machine learni
 ### Installation
 Clone the repository:
 ```
-git clone https://github.com/cezarylap/ML-Algorithm-Optimization-Comparison
+git clone https://github.com/cezarylap/ML-Hyperparameter-Tuning.git
 ```
 Install the required dependencies:
 ```
