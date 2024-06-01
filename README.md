@@ -1,6 +1,6 @@
 # Repository Description:
 
-This repository contains two scripts for comparing and optimizing machine learning algorithms on different datasets. The first script focuses on classification algorithms, while the second script addresses regression algorithms. Both scripts evaluate models with default hyperparameters, perform hyperparameter tuning to maximize a specific metric, and then compare the results.
+This repository contains two scripts that could be used as a template for comparing and optimizing machine learning algorithms on different datasets. The first script focuses on classification algorithms, while the second script addresses regression algorithms. Both scripts evaluate models with default hyperparameters, perform hyperparameter tuning to maximize a specific metric, and then compare the results.
 
 ## Repository Structure
 ### Classification.ipynb: Compares classification algorithms on a given dataset.
